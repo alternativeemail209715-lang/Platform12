@@ -1,0 +1,28 @@
+{
+  "name": "tiktok-live-game-platform",
+  "version": "2.98.0",
+  "private": true,
+  "type": "module",
+  "description": "A TikTok LIVE game platform hosting fifty independent games - including TEAM ARENA with forty-five team, word-duel, arcade and duel formats, HANGMAN LIVE and sixteen more interactive chat games (Missing Vowels, Odd One Out, Emoji Decoder, Capital Quest, Math Blitz, Number Hunt, Speed Typist, Chain Reaction, Quiz Rush, Pick a Side, Higher or Lower, Ladder Climb, Word Rain, Simon Chat, Secret Code, Name 'Em All) - behind one game-selector screen, each reading real audience chat. Word games can be played in English, Bahasa Indonesia, Bahasa Melayu (Malaysia) or any mix.",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "build:lexicon": "node tools/build-lexicon.mjs",
+    "audit:lexicon": "node tools/audit-lexicon.mjs",
+    "check:towns": "node tools/check-towns.mjs",
+    "import:wordlist": "node tools/import-wordlist.mjs",
+    "review:unknown": "node tools/review-unknown-towndle.mjs"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "socket.io": "^4.7.5",
+    "tiktok-live-connector": "^2.4.4",
+    "wink-lemmatizer": "^3.0.4",
+    "word-list": "^4.0.0",
+    "ws": "^8.18.0"
+  }
+}
