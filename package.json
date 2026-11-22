@@ -1,9 +1,9 @@
 {
   "name": "tiktok-live-game-platform",
-  "version": "2.99.0",
+  "version": "3.00.0",
   "private": true,
   "type": "module",
-  "description": "A TikTok LIVE game platform hosting eighty independent games - including TEAM ARENA with fifty-nine team, word-duel and arcade formats, HANGMAN LIVE and forty-six more interactive chat games where every viewer answers on their own (word, maths, geography, quiz, estimation and visual puzzles) - behind one game-selector screen, each reading real audience chat. Word games can be played in English, Bahasa Indonesia, Bahasa Melayu (Malaysia) or any mix.",
+  "description": "A TikTok LIVE game platform hosting one hundred independent games - including TEAM ARENA with seventy-five team, word-duel and arcade formats, HANGMAN LIVE and sixty-six more interactive chat games where every viewer answers on their own (word, language-learning, maths, geography, quiz, estimation and visual puzzles) - behind one game-selector screen, each reading real audience chat. Word games can be played in English, Bahasa Indonesia, Bahasa Melayu (Malaysia) or any mix.",
   "main": "start.js",
   "scripts": {
     "start": "node start.js",
